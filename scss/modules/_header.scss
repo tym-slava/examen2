@@ -1,0 +1,163 @@
+.header {
+    background: url(../images/bg-header.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav.navbar {
+    text-transform: uppercase;
+    font-family: 'Gotham';
+	font-weight: 400;
+}
+
+li .nav-link {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+// .social {
+//     margin-bottom: 15px;
+// }
+
+
+// .social {
+//     .icon {
+//         width: 20px;
+//         height: 20px;
+//         fill: white;
+//     }
+
+// }
+
+.icon {
+    fill: white;
+    width: 240px;
+}
+.row.header-text {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;;
+    
+}
+
+// .header-text {
+//     display: flex;
+
+// }
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 10px;
+    // text-align: center;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-family: 'Gotham';
+    font-weight: 400;
+    font-size: 22px;
+    color: white; 
+    letter-spacing: 5px; 
+    margin-top: 45px;
+}
+
+.icon-round {
+    // color: #E5E5E5;
+    color: #fff;
+    margin-right: 10px;
+    width: 2em;
+    height: 2em;
+    box-shadow: inset 0 0 0 1px rgba(229, 229, 229, .8);
+    text-align: center;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 15px;
+    align-self: center;
+    // margin-bottom: 4px;
+    transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    display: inline-block;
+    position: relative;
+}
+
+
+.arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+
+.slider {
+    // @include size(100%);
+    display: flex;
+    justify-content: center;
+
+
+    &__item.card-group {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    &__card {
+        margin: 0 5px;
+    }
+
+    .slick {
+        &-arrow {
+            @include size(50px, 50px);
+            position: absolute;
+            top: 50%;
+            z-index: 9;
+            background: red;
+            font-size: 0;
+            line-height: 0;
+            transform: translateY(-50%);
+
+        }
+
+        &-prev {
+            left: -55px;
+
+        }
+
+        &-next {
+            right: -55px;
+
+        }
+
+        &-dots {
+            bottom: -40px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0;
+            line-height: 0;
+            display: flex;
+
+            li button {
+                border: solid 1px white;
+                background: grey;
+                width: 10px;
+                height: 10px;
+                font-size: 0;
+                line-height: 0;
+                margin: 0 5px;
+                border-radius: 50%;
+
+            }
+
+            li.slick-active button {
+                background: white;
+            }
+        }
+    }
+}
+
+.map {
+    width: 100%;
+    height: 500px;
+}

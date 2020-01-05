@@ -1,0 +1,27 @@
+.projects {
+    &__title {
+        text-align: center;
+        margin: 100px auto;
+        text-transform: uppercase;
+        
+        h5 {
+            text-transform: uppercase;
+        }
+    }
+    h2 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 44px;
+        font-weight: 600;
+        margin-top: 100px;
+    }
+    
+}
+.photos {
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+    > div {
+        overflow: hidden;
+    }
+}

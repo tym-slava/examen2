@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="tym-slava" content="Exam" />
+	<meta name="author" content="Admin" />
+	<title>Monticello</title>
+
+	<link rel="icon" href="images/favicon.png" />
+	<link rel="stylesheet" href="css/libs/bootstrap.min.css" />
+	<link rel="stylesheet" href="images/sprite.svg">
+	<!-- slider -->
+	<link rel="stylesheet" href="js/libs/slick/slick.css" />
+	<!-- <link rel="stylesheet" href="js/libs/slick/slick-theme.css" /> -->
+	<link rel="stylesheet" href="js/libs/fancybox/jquery.fancybox.min.css">
+
+	<link rel="stylesheet" href="css/styles.min.css" />
+
+	<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+	<header class="header" id="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<a class="navbar-brand" href="#header">
+					<svg class="icon">
+						<use xlink:href="images/sprite.svg#logo"></use>
+					</svg>
+				</a>
+				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+				</button> -->
+
+				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="#about">about us<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">news</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">contact</a>
+						</li>
+					</ul>
+					<a class="nav-link " href="#">
+						<div class="social">
+							<svg class="icon social__icon icon-round">
+								<use xlink:href="images/sprite.svg#facebook"></use>
+							</svg>
+						</div>
+					</a>
+
+
+					<a class="nav-link " href="#">
+						<div class="social">
+							<svg class="icon social__icon icon-round">
+								<use xlink:href="images/sprite.svg#twitter"></use>
+							</svg>
+						</div>
+					</a>
+
+
+					<a class="nav-link " href="#">
+						<div class="social">
+							<svg class="icon social__icon icon-round">
+								<use xlink:href="images/sprite.svg#instagram"></use>
+							</svg>
+						</div>
+					</a>
+
+
+
+					<!-- <form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			  </form> -->
+				</div>
+			</nav>
+		</div>
+
+		<!-- DOTMENU -->
+		<ul class="fixed-nav">
+			<li>
+				<a href="#header" data-menu="header">
+					<span>Home</span>
+				</a>
+			</li>
+			<li>
+				<a href="#about" data-menu="about">
+					<span>About us</span>
+				</a>
+			</li>
+			<li>
+				<a href="#projects" data-menu="projects">
+					<span>Project</span>
+				</a>
+			</li>
+			<li>
+				<a href="#news" data-menu="news">
+					<span>News</span>
+				</a>
+			</li>
+			<li>
+				<a href="#contact" data-menu="contact">
+					<span>Contact</span>
+				</a>
+			</li>
+		</ul>
+		<div class="container">
+			<div class="row justify-content-center align-items-center header-text">
+				<h1 class="title">simple & modern</h1>
+				<h2 class="subtitle">We make the world's beautiful every day</h2>
+			</div>
+		</div>
+		<a href="#about">
+			<div class="arrow-down">
+				<svg class="icon icon-round ">
+					<use xlink:href="images/sprite.svg#arrow-down"></use>
+				</svg>
+			</div>
+		</a>
+
+	</header>
+
+	<section class="about" id="about">
+		
+		<h2 class="about__title">what we do</h2>
+		<div class="about__block col-md-6"></div>
+		<div class="container">
+			<div class="row wrap">
+				<div class="wrap__photo col-6">
+					<img src="images/about-1.jpg" alt="photo">
+				</div>
+				<div class="wrap__text col-6">
+					<p class="wrap__titleText">One World</p>
+					<h2 class="wrap__title">Trade Center</h2>
+					<article class="wrap__art">
+						Increasing prosperity in our lives can be accomplished by having the right frame of mind. The
+						truth is, our thoughts are very powerful. Lorem ipsum dolor sit.
+					</article>
+					<button type="button" class="wrap__btn">
+						<a href="#">more details</a>
+					</button>
+					<div class="wrap__nav">
+						<i class="icon-marker"></i>
+						<p>New York City, United States - 1776 feet</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="about__block offset-7 col-md-6 color-block"></div>
+		<div class="container">
+			<div class="row wrap">
+				<div class="wrap__text col-6">
+					<p class="wrap__titleText">One World</p>
+					<h2 class="wrap__title">Trade Center</h2>
+					<article class="wrap__art">
+						Increasing prosperity in our lives can be accomplished by having the right frame of mind. The
+						truth is, our thoughts are very powerful. Lorem ipsum dolor sit.
+					</article>
+					<button type="button" class="wrap__btn">
+						<a href="#">more details</a>
+					</button>
+					<div class="wrap__nav">
+						<i class="icon-marker"></i>
+						<p>New York City, United States - 1776 feet</p>
+					</div>
+
+				</div>
+				<div class="wrap__photo col-6">
+					<img src="images/about-2.jpg" alt="photo">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="news" id="news">
+		<div class="container">
+			<h2 class="news__title">Latest news</h2>
+			<!-- SLIDER -->
+			<div class="container">
+				<div class="slider">
+					<div class="card-group slider__item">
+						<div class="card slider__card border-light ">
+							<img src="images/news/1.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title news-title">See The Unmatched Beauty Of The Great. Lakes.</h5>
+								<p class="card-text">Free directories: directories are perfect for customers that are... searching for a </p>
+								<div class="text-author card-footer">
+									<div class="img-wrap">
+										<img src="images/news/authors/1.jpg" alt="">
+									</div>
+									<p class="name-author">isaak dunn</p>
+								</div>
+							</div>
+						</div>
+						<div class="card slider__card border-light ">
+							<img src="images/news/2.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title news-title">Effective Advertising Pointers.</h5>
+								<p class="card-text">Having a home based business is a wonderful asset to your life... Lorem ipsum dolor sit.</p>
+								<div class="text-author card-footer">
+									<div class="img-wrap">
+										<img src="images/news/authors/1.jpg" alt="">
+									</div>
+									<p class="name-author">dominic freeman</p>
+								</div>
+							</div>
+						</div>
+						<div class="card slider__card border-light ">
+							<img src="images/news/3.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title news-title">Hypnotize Yourself Into The Ghost.
+									Of Christmas Future</h5>
+								<p class="card-text">Having a home based business is a wonderful asset to your life... Lorem ipsum dolor sit amet.</p>
+								<div class="text-author card-footer">
+									<div class="img-wrap">
+										<img src="images/news/authors/1.jpg" alt="">
+									</div>
+									<p class="name-author">vasya pupkin</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-group slider__item">
+						<div class="card slider__card border-light ">
+							<img src="images/news/4.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title news-title">See The Unmatched Beauty Of The Great. Lakes.</h5>
+								<p class="card-text">
+									Some quick example text to build on the card title
+									and make up the bulk of the card's content. Lorem ipsum dolor
+								</p>
+								<div class="text-author card-footer">
+									<div class="img-wrap">
+										<img src="images/news/authors/1.jpg" alt="">
+									</div>
+									<p class="name-author">stepan bandera</p>
+								</div>
+							</div>
+						</div>
+						<div class="card slider__card border-light ">
+							<img src="images/news/5.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title news-title">See The Unmatched Beauty Of The Great.</h5>
+								<p class="card-text">
+									Some quick example text to build on the card title
+									and make up the bulk of the card's content.
+								</p>
+								<div class="text-author card-footer">
+									<div class="img-wrap">
+										<img src="images/news/authors/1.jpg" alt="">
+									</div>
+									<p class="name-author">iosif stalin</p>
+								</div>
+							</div>
+						</div>
+						<div class="card slider__card border-light ">
+							<img src="images/news/6.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title news-title">See The Unmatched Beauty Of The Great.</h5>
+								<p class="card-text">
+									Some quick example text to build on the card title
+									and make up the bulk of the card's content.
+								</p>
+								<div class="text-author card-footer">
+									<div class="img-wrap">
+										<img src="images/news/authors/1.jpg" alt="">
+									</div>
+									<p class="name-author">vladymyr lenin</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			
+		</div>
+
+	</section>
+
+	<section class="projects" id="projects">
+		<div class="container">
+			<h2 class="projects__title">Gallery</h2>
+			<div class="row photos">
+				<div class="col-6">
+				  <a data-fancybox="img-photo" class="photo photo--big" href="images/gallery/1-big.jpg" data-caption="My beautiful image">
+					<img src="images/gallery/1.jpg" alt="Gallery Item">
+				  </a>
+				</div>
+				
+				<div class="col-3">
+				  <a data-fancybox="img-photo" class="photo" href="images/gallery/2-big.jpg">
+					<img src="images/gallery/2.jpg" alt="Gallery Item">
+				  </a>
+				  <a data-fancybox="img-photo" class="photo" href="images/gallery/3-big.jpg">
+					<img src="images/gallery/3.jpg" alt="Gallery Item">
+				  </a>
+				</div>
+		
+				<div class="col-3">
+				  <a data-fancybox="img-photo" class="photo" href="images/gallery/4-big.jpg">
+					<img src="images/gallery/4.jpg" alt="Gallery Item">
+				  </a>
+				  <a data-fancybox="img-photo" class="photo" href="images/gallery/5-big.jpg">
+					<img src="images/gallery/5.jpg" alt="Gallery Item">
+				  </a>
+				</div>
+			  </div>
+
+			<!-- <div class="photos">
+				<div class="col-6 row">
+					<a data-fancybox="img-foto" class="photo photo--big" href="images/gallery/1-big.jpg"
+						data-caption="My photo">
+						<img src="images/gallery/1.jpg" alt="Gallery Item">
+					</a>
+				</div>
+				<div class="col-3 row">
+					<a data-fancybox="img-foto" class="photo" href="images/gallery/2-big.jpg">
+						<img src="images/gallery/2.jpg" alt="Gallery Item">
+					</a>
+					<a data-fancybox="img-foto" class="photo" href="images/gallery/3-big.jpg">
+						<img src="images/gallery/3.jpg" alt="Gallery Item">
+					</a>
+				</div>
+				<div class="col-3 row">
+					<a data-fancybox="img-foto" class="photo" href="images/gallery/4-big.jpg">
+						<img src="images/gallery/4.jpg" alt="Gallery Item">
+					</a>
+					<a data-fancybox="img-foto" class="photo" href="images/gallery/5-big.jpg">
+						<img src="images/gallery/5.jpg" alt="Gallery Item">
+					</a>
+				</div>
+			</div> -->
+		</div>
+	</section>
+
+	
+	<section class="contact" id="contact">
+		<h1>contact</h1>
+		
+	</section>
+	<section class="map" id="map">
+
+	</section>
+
+
+	<!-- SCRIPTS -->
+	<script src="js/libs/jquery-3.4.1.min.js"></script>
+	<script src="js/libs/fancybox/jquery.fancybox.min.js"></script>
+	<script src="js/libs/slick/slick.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdhr-1cXVxY0vAkDqvRjo_TDdWgB8FuQM&callback=initMap"
+		async defer></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
